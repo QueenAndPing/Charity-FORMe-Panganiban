@@ -1,0 +1,114 @@
+body {
+    background-image: url("background.png");
+    background-size: cover;
+}
+header{
+    padding: 50px 0 50px;
+    background-color: #ededed;
+    color: #1b324a;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.container {
+    background-color: #ededed;
+    margin: 2.5%;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.colmn {
+    flex-basis: 48%;
+    margin: 1%;
+}
+.card {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.card-header {
+    background-color: #1b324a !important;
+}
+.card-header h3{
+    color: #ededed;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    display: inline-block;
+    color: #ededed;
+    background: #1b324a;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 16px;
+    opacity: 0.59;
+}
+form .submit{
+    background: #1b324a;
+    border-color: transparent;
+    color: #ededed;
+    height: auto;
+    opacity: 1;
+    font-size: 27.49px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+form .submit:hover{
+    background-color: #ededed;
+    cursor: pointer;
+    transition: 1s;
+    color: #1b324a;
+}
+form .reset{
+    background: #1b324a;
+    border-color: transparent;
+    color: #ededed;
+    height: auto;
+    opacity: 1;
+    font-size: 27.49px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+form .reset:hover{
+    background-color: #ededed;
+    cursor: pointer;
+    transition: 1s;
+    color: #1b324a;
+}
+p{
+    text-align: justify;
+}
+.sex label{
+    margin-left: 10px;
+}
+.buttons {
+    display: flex;
+    padding-top: 50px;
+}
+.form-control.reset{
+    margin: 0;
+}
+.send {
+    width: 48%;
+}
+.reset {
+    width: 48%;
+    margin-bottom: -15px;
+}
+h1{
+    margin-top: 15px !important;
+    color: #1b324a;
+    font-size: xx-large;
+}
+p{
+    color: #1b324a;
+}
